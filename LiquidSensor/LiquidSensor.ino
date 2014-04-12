@@ -16,9 +16,9 @@
 // ZERO_VOLUME_RESISTANCE value.  Next fill the container with a known volume of liquid and record
 // the sensor resistance (in ohms) as the CALIBRATION_RESISTANCE value, and the volume (which you've
 // measured ahead of time) as CALIBRATION_VOLUME.
-#define ZERO_VOLUME_RESISTANCE    1963.70    // Resistance value (in ohms) when no liquid is present.
-#define CALIBRATION_RESISTANCE    512.81    // Resistance value (in ohms) when liquid is at max line.
-#define CALIBRATION_VOLUME        500.0    // Volume (in any units) when liquid is at max line.
+#define ZERO_VOLUME_RESISTANCE    0.00    // Resistance value (in ohms) when no liquid is present.
+#define CALIBRATION_RESISTANCE    0.00    // Resistance value (in ohms) when liquid is at max line.
+#define CALIBRATION_VOLUME        0.00    // Volume (in any units) when liquid is at max line.
  
 void setup(void) {
   Serial.begin(115200);
