@@ -14,9 +14,9 @@
 #define SENSOR_PIN          0      // Analog pin which is connected to the sensor. 
 
 // Calibration values measured from the LiquidSensor sketch. 
-#define ZERO_VOLUME_RESISTANCE    1963.70    // Resistance value (in ohms) when no liquid is present.
-#define CALIBRATION_RESISTANCE    512.81    // Resistance value (in ohms) when liquid is at max line.
-#define CALIBRATION_VOLUME        500.0    // Volume (in any units) when liquid is at max line.
+#define ZERO_VOLUME_RESISTANCE    0.00    // Resistance value (in ohms) when no liquid is present.
+#define CALIBRATION_RESISTANCE    0.00    // Resistance value (in ohms) when liquid is at max line.
+#define CALIBRATION_VOLUME        0.00    // Volume (in any units) when liquid is at max line.
 
 #define YUN_SERVER_PORT  5678  // Internal port the YunServer instance will use for communication with Flask.
                                  // Don't change this unless you know what you're doing!
